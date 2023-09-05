@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
     <title>Code Challenge</title>
 </head>
 <body>
- 
+
+<div class="testbox">
+    <h1>Formulario de Registro Code Challenge</h1>
+
+    <form action="/">
+        <hr>
+        <div >
+            <label class="icon" ><img src="img/person-badge.svg" alt="nombre"></label>
+            <input type="text" id="name" placeholder="Escriba su nombre">
+            <label class="icon" > <img src="img/person-vcard.svg" alt="apellido"></label> 
+            <input type="text" id="lastname" placeholder="Escriba su apellido">
+            <label class="icon"><img src="img/calendar-event.svg" alt="fecha-nacimiento"></label> 
+            <input type="date" id="date">
+        </div>
+        <hr>
+        <button id="btn" class="button">Enviar</button>
+   
+    </form>
+
+</div>
+
 <script src="js/init.js"></script>
 </body>
 </html>
